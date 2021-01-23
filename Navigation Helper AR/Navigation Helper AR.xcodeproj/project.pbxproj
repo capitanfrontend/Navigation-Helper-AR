@@ -3,27 +3,37 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5217516B25BC82BA00E81D43 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5217516A25BC82BA00E81D43 /* MapViewController.swift */; };
+		5217517125BC832E00E81D43 /* MapViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5217517025BC832E00E81D43 /* MapViewController.storyboard */; };
 		52BC096425BC6C2E005C06BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC096325BC6C2E005C06BA /* AppDelegate.swift */; };
 		52BC096625BC6C2E005C06BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC096525BC6C2E005C06BA /* SceneDelegate.swift */; };
-		52BC096825BC6C2E005C06BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BC096725BC6C2E005C06BA /* ViewController.swift */; };
-		52BC096B25BC6C2E005C06BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BC096925BC6C2E005C06BA /* Main.storyboard */; };
 		52BC096D25BC6C30005C06BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BC096C25BC6C30005C06BA /* Assets.xcassets */; };
 		52BC097025BC6C30005C06BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BC096E25BC6C30005C06BA /* LaunchScreen.storyboard */; };
+		52BC098425BC7F22005C06BA /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = 52BC098325BC7F22005C06BA /* Podfile */; };
+		52DD5F1D25BC99C0006A9FB8 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD5F1C25BC99C0006A9FB8 /* IntroViewController.swift */; };
+		52DD5F2025BC99C7006A9FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DD5F1F25BC99C6006A9FB8 /* Main.storyboard */; };
+		C06449C4121B59F7A29AB859 /* libPods-Navigation Helper AR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C7DFAA3F351CF819C61FB1 /* libPods-Navigation Helper AR.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2740E9B3A19064BDE53797D0 /* Pods-Navigation Helper AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation Helper AR.release.xcconfig"; path = "Target Support Files/Pods-Navigation Helper AR/Pods-Navigation Helper AR.release.xcconfig"; sourceTree = "<group>"; };
+		35CE3881A4A13614B3CD2D27 /* Pods-Navigation Helper AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation Helper AR.debug.xcconfig"; path = "Target Support Files/Pods-Navigation Helper AR/Pods-Navigation Helper AR.debug.xcconfig"; sourceTree = "<group>"; };
+		5217516A25BC82BA00E81D43 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		5217517025BC832E00E81D43 /* MapViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapViewController.storyboard; sourceTree = "<group>"; };
 		52BC096025BC6C2E005C06BA /* Navigation Helper AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Helper AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BC096325BC6C2E005C06BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BC096525BC6C2E005C06BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52BC096725BC6C2E005C06BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		52BC096A25BC6C2E005C06BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52BC096C25BC6C30005C06BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BC096F25BC6C30005C06BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52BC097125BC6C30005C06BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BC098325BC7F22005C06BA /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		52DD5F1C25BC99C0006A9FB8 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		52DD5F1F25BC99C6006A9FB8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B7C7DFAA3F351CF819C61FB1 /* libPods-Navigation Helper AR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Navigation Helper AR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C06449C4121B59F7A29AB859 /* libPods-Navigation Helper AR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5217516D25BC82CE00E81D43 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5217516A25BC82BA00E81D43 /* MapViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5217516E25BC82EC00E81D43 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5217516F25BC831200E81D43 /* StoryBoadrds */ = {
+			isa = PBXGroup;
+			children = (
+				5217517025BC832E00E81D43 /* MapViewController.storyboard */,
+			);
+			path = StoryBoadrds;
+			sourceTree = "<group>";
+		};
 		52BC095725BC6C2E005C06BA = {
 			isa = PBXGroup;
 			children = (
+				52BC098325BC7F22005C06BA /* Podfile */,
 				52BC096225BC6C2E005C06BA /* Navigation Helper AR */,
 				52BC096125BC6C2E005C06BA /* Products */,
+				BBC4A3CC229B51A81C4174F1 /* Pods */,
+				E03D5FD10DFD6EA868BDB204 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +93,35 @@
 		52BC096225BC6C2E005C06BA /* Navigation Helper AR */ = {
 			isa = PBXGroup;
 			children = (
+				5217516F25BC831200E81D43 /* StoryBoadrds */,
+				5217516E25BC82EC00E81D43 /* Views */,
+				5217516D25BC82CE00E81D43 /* Controllers */,
 				52BC096325BC6C2E005C06BA /* AppDelegate.swift */,
+				52DD5F1C25BC99C0006A9FB8 /* IntroViewController.swift */,
 				52BC096525BC6C2E005C06BA /* SceneDelegate.swift */,
-				52BC096725BC6C2E005C06BA /* ViewController.swift */,
-				52BC096925BC6C2E005C06BA /* Main.storyboard */,
 				52BC096C25BC6C30005C06BA /* Assets.xcassets */,
+				52DD5F1F25BC99C6006A9FB8 /* Main.storyboard */,
 				52BC096E25BC6C30005C06BA /* LaunchScreen.storyboard */,
 				52BC097125BC6C30005C06BA /* Info.plist */,
 			);
 			path = "Navigation Helper AR";
+			sourceTree = "<group>";
+		};
+		BBC4A3CC229B51A81C4174F1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				35CE3881A4A13614B3CD2D27 /* Pods-Navigation Helper AR.debug.xcconfig */,
+				2740E9B3A19064BDE53797D0 /* Pods-Navigation Helper AR.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E03D5FD10DFD6EA868BDB204 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7C7DFAA3F351CF819C61FB1 /* libPods-Navigation Helper AR.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52BC097425BC6C30005C06BA /* Build configuration list for PBXNativeTarget "Navigation Helper AR" */;
 			buildPhases = (
+				BDAF5386B314F1C05A3E76AD /* [CP] Check Pods Manifest.lock */,
 				52BC095C25BC6C2E005C06BA /* Sources */,
 				52BC095D25BC6C2E005C06BA /* Frameworks */,
 				52BC095E25BC6C2E005C06BA /* Resources */,
+				D2D25DB13F2D5E35AAFD9C2C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,35 +184,72 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BC097025BC6C30005C06BA /* LaunchScreen.storyboard in Resources */,
+				5217517125BC832E00E81D43 /* MapViewController.storyboard in Resources */,
 				52BC096D25BC6C30005C06BA /* Assets.xcassets in Resources */,
-				52BC096B25BC6C2E005C06BA /* Main.storyboard in Resources */,
+				52DD5F2025BC99C7006A9FB8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BDAF5386B314F1C05A3E76AD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Navigation Helper AR-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2D25DB13F2D5E35AAFD9C2C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Navigation Helper AR/Pods-Navigation Helper AR-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Navigation Helper AR/Pods-Navigation Helper AR-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Navigation Helper AR/Pods-Navigation Helper AR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		52BC095C25BC6C2E005C06BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52BC096825BC6C2E005C06BA /* ViewController.swift in Sources */,
+				52DD5F1D25BC99C0006A9FB8 /* IntroViewController.swift in Sources */,
 				52BC096425BC6C2E005C06BA /* AppDelegate.swift in Sources */,
 				52BC096625BC6C2E005C06BA /* SceneDelegate.swift in Sources */,
+				5217516B25BC82BA00E81D43 /* MapViewController.swift in Sources */,
+				52BC098425BC7F22005C06BA /* Podfile in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		52BC096925BC6C2E005C06BA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				52BC096A25BC6C2E005C06BA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		52BC096E25BC6C30005C06BA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,6 +379,7 @@
 		};
 		52BC097525BC6C30005C06BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 35CE3881A4A13614B3CD2D27 /* Pods-Navigation Helper AR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,6 +398,7 @@
 		};
 		52BC097625BC6C30005C06BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2740E9B3A19064BDE53797D0 /* Pods-Navigation Helper AR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
