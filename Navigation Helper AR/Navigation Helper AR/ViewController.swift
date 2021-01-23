@@ -15,5 +15,12 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func onOpenMapPressed(_ sender: Any) {
+        let storyboard = UIStoryboard(name: "MapViewController", bundle: nil)
+        if let vc = storyboard.instantiateViewController(withIdentifier: "MapViewController") as? MapViewController {
+           present(vc, animated: true) 
+        }
+       
+    }
 }
 
