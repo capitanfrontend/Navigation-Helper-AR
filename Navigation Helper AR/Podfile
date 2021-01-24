@@ -7,4 +7,6 @@ target 'Navigation Helper AR' do
   # Pods for AR Maps
   pod 'GoogleMaps'
   pod 'GooglePlaces'
+  pod 'Alamofire'
+  pod 'SwiftyJSON'
 end

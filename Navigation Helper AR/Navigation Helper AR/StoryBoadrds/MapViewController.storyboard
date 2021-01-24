@@ -82,6 +82,7 @@
                         <outlet property="backButton" destination="B8E-4j-SYb" id="PbI-IR-mrZ"/>
                         <outlet property="mapView" destination="CXi-VK-Dhc" id="u5n-0A-LMG"/>
                         <outlet property="searchLabel" destination="zl3-h9-8Mx" id="OhP-pT-6SQ"/>
+                        <outlet property="searchView" destination="ugz-FX-kyq" id="bAA-LE-KsN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Blp-CW-wDi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
