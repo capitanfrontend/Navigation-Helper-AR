@@ -2,7 +2,7 @@
 //  Constants.swift
 //  Navigation Helper AR
 //
-//  Created by test on 24.01.2021.
+//  Created by Serhii on 24.01.2021.
 //
 
 import Foundation

@@ -14,7 +14,9 @@ class MapViewController: UIViewController {
     
     @IBOutlet weak var mapView: GMSMapView!
     @IBOutlet weak var backButton: UIButton!
-
+    
+    @IBOutlet weak var searchLabel: UILabel!
+    
     var locationManager = CLLocationManager()
     var currentLocation = CLLocationCoordinate2D()
     
