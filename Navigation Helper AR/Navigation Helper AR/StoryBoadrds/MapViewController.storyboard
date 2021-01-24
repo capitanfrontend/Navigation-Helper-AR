@@ -11,13 +11,41 @@
         <!--Map View Controller-->
         <scene sceneID="Rt4-0q-rqD">
             <objects>
-                <viewController storyboardIdentifier="MapViewController" id="kVG-Ye-afY" customClass="MapViewController" customModule="Navigation_Helper_AR" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MapViewController" modalPresentationStyle="fullScreen" id="kVG-Ye-afY" customClass="MapViewController" customModule="Navigation_Helper_AR" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bup-7R-YyO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CXi-VK-Dhc" customClass="GMSMapView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8E-4j-SYb">
+                                <rect key="frame" x="15" y="59" width="50" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="50" id="2cQ-Yb-dpQ"/>
+                                    <constraint firstAttribute="height" constant="50" id="qxI-ho-ALn"/>
+                                </constraints>
+                                <state key="normal" image="arrow.backward" catalog="system"/>
+                                <connections>
+                                    <action selector="onBackButtonPressed:" destination="kVG-Ye-afY" eventType="touchUpInside" id="Tdr-92-d4s"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="eWz-Sh-HPK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="CXi-VK-Dhc" secondAttribute="bottom" id="4RP-b1-FHs"/>
+                            <constraint firstItem="B8E-4j-SYb" firstAttribute="leading" secondItem="eWz-Sh-HPK" secondAttribute="leading" constant="15" id="Aeb-a2-TPh"/>
+                            <constraint firstItem="CXi-VK-Dhc" firstAttribute="leading" secondItem="eWz-Sh-HPK" secondAttribute="leading" id="HXl-PM-IVI"/>
+                            <constraint firstItem="CXi-VK-Dhc" firstAttribute="top" secondItem="bup-7R-YyO" secondAttribute="top" id="JYC-ur-XCI"/>
+                            <constraint firstItem="B8E-4j-SYb" firstAttribute="top" secondItem="eWz-Sh-HPK" secondAttribute="top" constant="15" id="sv7-BZ-vqn"/>
+                            <constraint firstItem="eWz-Sh-HPK" firstAttribute="trailing" secondItem="CXi-VK-Dhc" secondAttribute="trailing" id="yuJ-GL-o22"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="mapView" destination="CXi-VK-Dhc" id="u5n-0A-LMG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Blp-CW-wDi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -25,6 +53,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="arrow.backward" catalog="system" width="128" height="98"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
