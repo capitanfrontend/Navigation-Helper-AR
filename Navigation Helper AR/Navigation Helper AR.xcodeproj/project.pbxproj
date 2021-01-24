@@ -16,6 +16,7 @@
 		52BC098425BC7F22005C06BA /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = 52BC098325BC7F22005C06BA /* Podfile */; };
 		52DD5F1D25BC99C0006A9FB8 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD5F1C25BC99C0006A9FB8 /* IntroViewController.swift */; };
 		52DD5F2025BC99C7006A9FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DD5F1F25BC99C6006A9FB8 /* Main.storyboard */; };
+		52E8680625BDC73300ECA955 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E8680525BDC73300ECA955 /* Constants.swift */; };
 		8EE365C679AA76150ACF0396 /* libPods-Navigation Helper AR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60A85F791BCF2C0FD99BBC /* libPods-Navigation Helper AR.a */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		52BC098325BC7F22005C06BA /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52DD5F1C25BC99C0006A9FB8 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		52DD5F1F25BC99C6006A9FB8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		52E8680525BDC73300ECA955 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		BB60A85F791BCF2C0FD99BBC /* libPods-Navigation Helper AR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Navigation Helper AR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,6 +95,7 @@
 		52BC096225BC6C2E005C06BA /* Navigation Helper AR */ = {
 			isa = PBXGroup;
 			children = (
+				52E8680425BDC71400ECA955 /* Common */,
 				5217516F25BC831200E81D43 /* StoryBoadrds */,
 				5217516E25BC82EC00E81D43 /* Views */,
 				5217516D25BC82CE00E81D43 /* Controllers */,
@@ -105,6 +108,14 @@
 				52BC097125BC6C30005C06BA /* Info.plist */,
 			);
 			path = "Navigation Helper AR";
+			sourceTree = "<group>";
+		};
+		52E8680425BDC71400ECA955 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				52E8680525BDC73300ECA955 /* Constants.swift */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		872A978BDFD4B6E47E470DA4 /* Frameworks */ = {
@@ -244,6 +255,7 @@
 				52BC096625BC6C2E005C06BA /* SceneDelegate.swift in Sources */,
 				5217516B25BC82BA00E81D43 /* MapViewController.swift in Sources */,
 				52BC098425BC7F22005C06BA /* Podfile in Sources */,
+				52E8680625BDC73300ECA955 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +397,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Navigation Helper AR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -404,6 +417,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Navigation Helper AR/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

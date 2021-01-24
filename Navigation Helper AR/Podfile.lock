@@ -1,20 +1,33 @@
 PODS:
+  - Alamofire (5.4.1)
   - GoogleMaps (4.1.0):
     - GoogleMaps/Maps (= 4.1.0)
   - GoogleMaps/Base (4.1.0)
   - GoogleMaps/Maps (4.1.0):
     - GoogleMaps/Base
+  - GooglePlaces (4.1.0):
+    - GoogleMaps/Base (= 4.1.0)
+  - SwiftyJSON (5.0.0)
 
 DEPENDENCIES:
+  - Alamofire
   - GoogleMaps
+  - GooglePlaces
+  - SwiftyJSON
 
 SPEC REPOS:
   trunk:
+    - Alamofire
     - GoogleMaps
+    - GooglePlaces
+    - SwiftyJSON
 
 SPEC CHECKSUMS:
+  Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
   GoogleMaps: 008e2c80e38605b56b560e8deb73d4194ff30bef
+  GooglePlaces: a058b776259c13e1323c9ff135549cb1b13ad8e7
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
 
-PODFILE CHECKSUM: 70b8f41d64b1ab43ccae183f166d9856b88460fa
+PODFILE CHECKSUM: e809f446a7a74250b6a1a7ae261805145af976b7
 
-COCOAPODS: 1.10.0
+COCOAPODS: 1.9.3
