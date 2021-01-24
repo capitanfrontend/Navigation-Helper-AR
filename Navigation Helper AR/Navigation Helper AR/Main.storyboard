@@ -30,14 +30,17 @@ It's Navigation Helper AR</string>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOa-Da-ViE" userLabel="GoButton">
-                                <rect key="frame" x="182" y="437" width="50" height="50"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cOa-Da-ViE" userLabel="GoButton">
+                                <rect key="frame" x="32" y="437" width="350" height="50"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="0.62497324486301364" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="4KP-op-vhb"/>
-                                    <constraint firstAttribute="width" constant="50" id="jat-c3-2U4"/>
+                                    <constraint firstAttribute="width" constant="350" id="jat-c3-2U4"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="27"/>
-                                <state key="normal" title="Go!"/>
+                                <state key="normal" title="Go!">
+                                    <color key="titleColor" red="0.14411248960908124" green="0.27309088437696449" blue="0.98132258650000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
                                 <connections>
                                     <action selector="GoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fW2-o2-wS5"/>
                                     <action selector="onOpenMapPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VlQ-MA-xU9"/>
