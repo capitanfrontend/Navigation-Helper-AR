@@ -16,12 +16,12 @@
 		52BC098425BC7F22005C06BA /* Podfile in Sources */ = {isa = PBXBuildFile; fileRef = 52BC098325BC7F22005C06BA /* Podfile */; };
 		52DD5F1D25BC99C0006A9FB8 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DD5F1C25BC99C0006A9FB8 /* IntroViewController.swift */; };
 		52DD5F2025BC99C7006A9FB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52DD5F1F25BC99C6006A9FB8 /* Main.storyboard */; };
-		C06449C4121B59F7A29AB859 /* libPods-Navigation Helper AR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C7DFAA3F351CF819C61FB1 /* libPods-Navigation Helper AR.a */; };
+		8EE365C679AA76150ACF0396 /* libPods-Navigation Helper AR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB60A85F791BCF2C0FD99BBC /* libPods-Navigation Helper AR.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2740E9B3A19064BDE53797D0 /* Pods-Navigation Helper AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation Helper AR.release.xcconfig"; path = "Target Support Files/Pods-Navigation Helper AR/Pods-Navigation Helper AR.release.xcconfig"; sourceTree = "<group>"; };
-		35CE3881A4A13614B3CD2D27 /* Pods-Navigation Helper AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation Helper AR.debug.xcconfig"; path = "Target Support Files/Pods-Navigation Helper AR/Pods-Navigation Helper AR.debug.xcconfig"; sourceTree = "<group>"; };
+		26C6116177E4C2D2684CEFF1 /* Pods-Navigation Helper AR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation Helper AR.debug.xcconfig"; path = "Target Support Files/Pods-Navigation Helper AR/Pods-Navigation Helper AR.debug.xcconfig"; sourceTree = "<group>"; };
+		3F0DA4CD8307389838E41916 /* Pods-Navigation Helper AR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Navigation Helper AR.release.xcconfig"; path = "Target Support Files/Pods-Navigation Helper AR/Pods-Navigation Helper AR.release.xcconfig"; sourceTree = "<group>"; };
 		5217516A25BC82BA00E81D43 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		5217517025BC832E00E81D43 /* MapViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MapViewController.storyboard; sourceTree = "<group>"; };
 		52BC096025BC6C2E005C06BA /* Navigation Helper AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Navigation Helper AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -33,7 +33,7 @@
 		52BC098325BC7F22005C06BA /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		52DD5F1C25BC99C0006A9FB8 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		52DD5F1F25BC99C6006A9FB8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		B7C7DFAA3F351CF819C61FB1 /* libPods-Navigation Helper AR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Navigation Helper AR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB60A85F791BCF2C0FD99BBC /* libPods-Navigation Helper AR.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Navigation Helper AR.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C06449C4121B59F7A29AB859 /* libPods-Navigation Helper AR.a in Frameworks */,
+				8EE365C679AA76150ACF0396 /* libPods-Navigation Helper AR.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 				52BC096225BC6C2E005C06BA /* Navigation Helper AR */,
 				52BC096125BC6C2E005C06BA /* Products */,
 				BBC4A3CC229B51A81C4174F1 /* Pods */,
-				E03D5FD10DFD6EA868BDB204 /* Frameworks */,
+				872A978BDFD4B6E47E470DA4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -107,21 +107,21 @@
 			path = "Navigation Helper AR";
 			sourceTree = "<group>";
 		};
+		872A978BDFD4B6E47E470DA4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BB60A85F791BCF2C0FD99BBC /* libPods-Navigation Helper AR.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BBC4A3CC229B51A81C4174F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				35CE3881A4A13614B3CD2D27 /* Pods-Navigation Helper AR.debug.xcconfig */,
-				2740E9B3A19064BDE53797D0 /* Pods-Navigation Helper AR.release.xcconfig */,
+				26C6116177E4C2D2684CEFF1 /* Pods-Navigation Helper AR.debug.xcconfig */,
+				3F0DA4CD8307389838E41916 /* Pods-Navigation Helper AR.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		E03D5FD10DFD6EA868BDB204 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B7C7DFAA3F351CF819C61FB1 /* libPods-Navigation Helper AR.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,11 +131,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 52BC097425BC6C30005C06BA /* Build configuration list for PBXNativeTarget "Navigation Helper AR" */;
 			buildPhases = (
-				BDAF5386B314F1C05A3E76AD /* [CP] Check Pods Manifest.lock */,
+				80D6E34DB790D760FCDC5D19 /* [CP] Check Pods Manifest.lock */,
 				52BC095C25BC6C2E005C06BA /* Sources */,
 				52BC095D25BC6C2E005C06BA /* Frameworks */,
 				52BC095E25BC6C2E005C06BA /* Resources */,
-				D2D25DB13F2D5E35AAFD9C2C /* [CP] Copy Pods Resources */,
+				843BCABF72B08C7C6D8D539B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,7 +193,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		BDAF5386B314F1C05A3E76AD /* [CP] Check Pods Manifest.lock */ = {
+		80D6E34DB790D760FCDC5D19 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -215,7 +215,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D2D25DB13F2D5E35AAFD9C2C /* [CP] Copy Pods Resources */ = {
+		843BCABF72B08C7C6D8D539B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -379,7 +379,7 @@
 		};
 		52BC097525BC6C30005C06BA /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 35CE3881A4A13614B3CD2D27 /* Pods-Navigation Helper AR.debug.xcconfig */;
+			baseConfigurationReference = 26C6116177E4C2D2684CEFF1 /* Pods-Navigation Helper AR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -398,7 +398,7 @@
 		};
 		52BC097625BC6C30005C06BA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2740E9B3A19064BDE53797D0 /* Pods-Navigation Helper AR.release.xcconfig */;
+			baseConfigurationReference = 3F0DA4CD8307389838E41916 /* Pods-Navigation Helper AR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -408,6 +408,8 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "developer-at-bioware.Navigation-Helper-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
