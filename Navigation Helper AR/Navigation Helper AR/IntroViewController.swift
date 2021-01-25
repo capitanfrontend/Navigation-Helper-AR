@@ -8,15 +8,23 @@
 import UIKit
 
 class IntroViewController: UIViewController {
+    
+    private enum GoButtonConstants {
+        static let cornerRadius = CGFloat(10.0)
+        static let borderWidth = CGFloat(1)
+        static let borderColor = UIColor.black.cgColor
+    }
 
     @IBOutlet var GoButton: UIButton!
     
-    @IBAction func GoButtonTapped(_ sender: Any) {
+    override func viewDidLayoutSubviews() {
+        GoButton.layer.cornerRadius = GoButtonConstants.cornerRadius
+        GoButton.layer.borderWidth = GoButtonConstants.borderWidth
+        GoButton.layer.borderColor = GoButtonConstants.borderColor
     }
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
 
     @IBAction func onOpenMapPressed(_ sender: Any) {

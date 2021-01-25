@@ -24,7 +24,12 @@ class MapViewController: UIViewController {
     var locationManager = CLLocationManager()
     var currentLocation = CLLocationCoordinate2D()
     var destinationLocation = CLLocationCoordinate2D()
-            
+    
+    override func viewDidLayoutSubviews() {
+        searchView.layer.cornerRadius = 12
+        searchView.layer.borderWidth = 1
+        searchView.layer.borderColor = UIColor.black.cgColor
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -38,7 +43,7 @@ class MapViewController: UIViewController {
     @IBAction func onBackButtonPressed(_ sender: Any) {
         self.dismiss(animated: true)
     }
-
+    
     private func makeRouteUrl() -> String {
         return "https://maps.googleapis.com/maps/api/directions/json?origin=\(currentLocation.latitude),\(currentLocation.longitude)&destination=\(destinationLocation.latitude),\(destinationLocation.longitude)&mode=driving&key=\(Constants.googleMapsKey)"
     }
