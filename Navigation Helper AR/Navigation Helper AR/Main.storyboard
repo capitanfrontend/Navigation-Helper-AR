@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
@@ -42,7 +43,6 @@ It's Navigation Helper AR</string>
                                     <color key="titleColor" red="0.14411248960908124" green="0.27309088437696449" blue="0.98132258650000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <action selector="GoButtonTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fW2-o2-wS5"/>
                                     <action selector="onOpenMapPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VlQ-MA-xU9"/>
                                 </connections>
                             </button>
