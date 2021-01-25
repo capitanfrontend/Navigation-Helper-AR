@@ -45,11 +45,13 @@ class MapViewController: UIViewController {
     }
     
     private func makeRouteUrl() -> String {
+        
         return "https://maps.googleapis.com/maps/api/directions/json?origin=\(currentLocation.latitude),\(currentLocation.longitude)&destination=\(destinationLocation.latitude),\(destinationLocation.longitude)&mode=driving&key=\(Constants.googleMapsKey)"
     }
     
     private func buildRoute() {
         let url = makeRouteUrl()
+        print("in map destinationLocation= \(destinationLocation)")
         AF.request(url).responseJSON { (reseponse) in
                    guard let data = reseponse.data else {
                        return
@@ -87,7 +89,7 @@ class MapViewController: UIViewController {
         destinationMarker.map = self.mapView
         
         
-        let camera = GMSCameraPosition(target: sourceMarker.position, zoom: 10)
+        let camera = GMSCameraPosition(target: destinationLocation, zoom: 10)
         self.mapView.animate(to: camera)
     }
 
@@ -108,8 +110,11 @@ class MapViewController: UIViewController {
         autocompleteController.delegate = self
 
            // Specify the place data types to return.
-           let fields: GMSPlaceField = GMSPlaceField(rawValue: UInt(GMSPlaceField.name.rawValue) |
-                                                        UInt(GMSPlaceField.placeID.rawValue))
+           let fields: GMSPlaceField = GMSPlaceField(rawValue:UInt(GMSPlaceField.name.rawValue) |
+                                                                                    UInt(GMSPlaceField.placeID.rawValue) |
+                                                                                    UInt(GMSPlaceField.coordinate.rawValue) |
+                                                                                    GMSPlaceField.addressComponents.rawValue |
+                                                        GMSPlaceField.formattedAddress.rawValue)
            autocompleteController.placeFields = fields
 
            // Specify a filter.
@@ -140,6 +145,7 @@ extension MapViewController : GMSAutocompleteViewControllerDelegate {
     
     func viewController(_ viewController: GMSAutocompleteViewController, didAutocompleteWith place: GMSPlace) {
         searchLabel.text = place.name
+        mapView.clear()
         destinationLocation =  place.coordinate
         dismiss(animated: true) {
             self.buildRoute()

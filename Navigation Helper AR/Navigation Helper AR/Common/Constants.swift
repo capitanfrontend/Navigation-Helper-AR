@@ -9,5 +9,5 @@ import Foundation
 
 
 struct  Constants {
-    public static let googleMapsKey: String = "AIzaSyDltxqzCIfyPlbpr3QhecvBN9acsYgZ24Q"
+    public static let googleMapsKey: String = "AIzaSyCVisJB-G5c7VUeg23FaIxqxG8m2bSWRvo"
 }
