@@ -20,6 +20,7 @@ class MapViewController: UIViewController {
     
     @IBOutlet weak var searchView: UIView!
     @IBOutlet weak var searchLabel: UILabel!
+    @IBOutlet weak var arButton: UIButton!
     
     var locationManager = CLLocationManager()
     var currentLocation = CLLocationCoordinate2D()
@@ -29,6 +30,9 @@ class MapViewController: UIViewController {
         searchView.layer.cornerRadius = 12
         searchView.layer.borderWidth = 1
         searchView.layer.borderColor = UIColor.black.cgColor
+        arButton.layer.cornerRadius = 25
+        arButton.layer.borderWidth = 1
+        arButton.layer.borderColor = UIColor.black.cgColor
     }
     
     override func viewDidLoad() {
@@ -89,7 +93,7 @@ class MapViewController: UIViewController {
         destinationMarker.map = self.mapView
         
         
-        let camera = GMSCameraPosition(target: destinationLocation, zoom: 10)
+        let camera = GMSCameraPosition(target: currentLocation, zoom: 10)
         self.mapView.animate(to: camera)
     }
 
@@ -125,7 +129,16 @@ class MapViewController: UIViewController {
            // Display the autocomplete view controller.
            present(autocompleteController, animated: true)
     }
-
+    
+    
+    @IBAction func onArButtonPressed(_ sender: Any) {
+            let storyboard = UIStoryboard(name: "MapViewController", bundle: nil)
+            if let vc = storyboard.instantiateViewController(withIdentifier: "ARViewController") as? ARViewController {
+                vc.routeCoordinates = []
+               present(vc, animated: true)
+            }
+    }
+    
 }
 extension MapViewController: CLLocationManagerDelegate {
     

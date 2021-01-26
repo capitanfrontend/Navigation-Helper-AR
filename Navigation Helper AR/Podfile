@@ -9,4 +9,5 @@ target 'Navigation Helper AR' do
   pod 'GooglePlaces'
   pod 'Alamofire'
   pod 'SwiftyJSON'
+  pod 'CocoaLumberjack/Swift'
 end
