@@ -12,9 +12,10 @@
 ## Some examples of app usage
 
 <p float="left">
-  <img src="Media/welcome.jpg" width="250" />
-  <img src="Media/directionSet.jpg" width="250" /> 
-  <img src="Media/routeReady.jpg" width="250" />
+  <img src="Media/welcome.jpg" width="210" />
+  <img src="Media/directionSet.jpg" width="210" /> 
+  <img src="Media/routeReady.jpg" width="210" />
+  <img src="Media/AR1.jpg" width="210" />
 </p>
 
 ## Features
@@ -24,9 +25,9 @@
 
 ## Requirements
 
-- iOS 14.0+ (ARkit requires the last version)
+- iOS 12.0+ 
 - Xcode 12.3
-- iPhone 11+ (for testing AR features)
+- iPhone with a12 processor or higher (for testing AR features)
 
 ## Building steps
 
@@ -58,8 +59,10 @@ In the terminal and specifically in the project directory (where Podfile is), ru
 
 6. Log in your Apple Developer account.
 
-7. Connect your Apple device (e.g. iphone:).
+7. Connect your Apple device (e.g. iphone). For this step you can check this [tutorial](https://codewithchris.com/deploy-your-app-on-an-iphone/).
 
 8. Click the triangle button on the upper left corner.
 
 9. You're all set up and ready to go!) 
+
+***  ***If you have any problems with building this app, or you don't have the right equipment, please contact @id_7996 (telegram) - he can build it for you and send apk-file for installation on your iPhone***
